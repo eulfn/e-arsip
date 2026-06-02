@@ -1,0 +1,56 @@
+/* Profile Layout */
+.profile-form-container {
+    display: flex;
+    gap: 32px;
+    align-items: flex-start;
+    margin-bottom: 32px;
+}
+
+.profile-avatar-section {
+    text-align: center;
+}
+
+.avatar-preview-container {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 4px solid var(--surface);
+    box-shadow: var(--shadow);
+    background: #f3f4f6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.avatar-image-preview {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.role-badge-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding-top: 4px;
+}
+
+.admin-verified-badge {
+    color: #10b981;
+    font-size: 0.75rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+/* Profile Avatar Clickable */
+.profile-avatar-clickable {
+    cursor: pointer;
+    position: relative;
+    display: block;
+    width: 120px;
+    height: 120px;
+    margin: 0 auto 16px;
+}
