@@ -31,9 +31,4 @@ user_guide_src/cilexer/pycilexer.egg-info/*
 /tests/tests/
 /tests/results/
 
-e_archive.sql
-dbtest.php
-rve.txt
-migrate.sh
-setup.sh
-have-done.sh
+.ex/*
