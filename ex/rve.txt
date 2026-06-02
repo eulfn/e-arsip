@@ -1,0 +1,4 @@
+todo :
+- alert setiap action pada module
+- reposisi button > document > agar tidak "missclick"
+- kalau ada missing data yang perlu diisi di model/view , tambahkan alert untuk mengisi data tersebut
